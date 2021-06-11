@@ -1,0 +1,17 @@
+@import "./imacRetina-description";
+@import "./imacRetina-image";
+@import "./imacRetina-link";
+@import "./imacRetina-mainContent";
+@import "./imacRetina-subtitle";
+@import "./imacRetina-textContent";
+@import "./imacRetina-title";
+
+.imacRetina {
+	grid-area: imacRetina;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0 4%;
+	overflow: hidden;
+	padding-top: 68px;
+}

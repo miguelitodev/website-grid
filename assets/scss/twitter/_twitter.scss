@@ -1,0 +1,16 @@
+@import "./twitter-content";
+@import "./twitter-image";
+@import "./twitter-title";
+
+.twitter {
+  grid-area: twitter;
+
+  background-color: $light-blue-10;
+  color: $white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

@@ -1,0 +1,13 @@
+@import "./popularExperience-tag";
+@import "./popularExperience-title";
+
+.popularExperience {
+  grid-area: popularExperience;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}

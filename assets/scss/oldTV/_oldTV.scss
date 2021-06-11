@@ -1,0 +1,17 @@
+@import "./oldTV-image";
+@import "./oldTV-title";
+
+.oldTV {
+  grid-area: oldTV;
+  overflow: hidden;
+
+  background-color: $dark-gray;
+  color: $white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 5%;
+}

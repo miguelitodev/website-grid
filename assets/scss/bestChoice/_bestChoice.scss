@@ -1,0 +1,18 @@
+@import "./bestChoice-content";
+@import "./bestChoice-image";
+@import "./bestChoice-tag";
+@import "./bestChoice-title";
+
+.bestChoice {
+  position: relative;
+  grid-area: bestChoice;
+
+  background-color: $green-10;
+  background-image: url(https://uploads-ssl.webflow.com/5bc242f45a5ed923b1704210/5bc2f42d5a5ed97dab707e7e_UX.png);
+  background-size: 80%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  color: $white;
+}

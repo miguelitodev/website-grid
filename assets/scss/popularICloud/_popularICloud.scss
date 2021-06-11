@@ -1,0 +1,19 @@
+@import "./popularICloud-description";
+@import "./popularICloud-image";
+@import "./popularICloud-imageContent";
+@import "./popularICloud-link";
+@import "./popularICloud-subtitle";
+@import "./popularICloud-tag";
+@import "./popularICloud-title";
+
+.popularICloud {
+  grid-area: popularICloud;
+  background-color: $purple;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

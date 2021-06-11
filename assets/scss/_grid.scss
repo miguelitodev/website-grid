@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 25%;
+  grid-template-rows: repeat(3, 50vh) 25vh;
+  grid-template-areas:
+    "iphone6s iphone6s learnMore learnMore"
+    "keyboard imacRetina imacRetina popularICloud"
+    "games bestChoice bestChoice popularICloud"
+    "twitter popularExperience oldTV oldTV";
+}

@@ -1,0 +1,16 @@
+@import "./keyboard-title";
+@import "./keyboard-link";
+@import "./keyboard-image";
+
+.keyboard {
+	grid-area: keyboard;
+
+	background-color: $orange;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

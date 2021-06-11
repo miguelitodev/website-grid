@@ -1,0 +1,16 @@
+@import "./learnMore-title.scss";
+@import "./learnMore-subtitle.scss";
+@import "./learnMore-link.scss";
+
+.learnMore {
+	background-color: $white-20;
+
+	grid-area: learnMore;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

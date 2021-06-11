@@ -1,0 +1,12 @@
+@import "./games-image";
+@import "./games-link";
+@import "./games-title";
+
+.games {
+  grid-area: games;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

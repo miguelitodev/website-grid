@@ -1,0 +1,13 @@
+.popularICloud__imageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  width: 373px;
+  height: 373px;
+  border-radius: 50%;
+
+  background-color: $dark-purple;
+}

@@ -1,0 +1,16 @@
+body {
+	line-height: 1.625rem;
+}
+
+.title {
+	font-family: $primary-font;
+}
+
+.subtitle {
+	font-family: $secondary-font;
+}
+
+.description,
+.link {
+	font-family: $tertiary-font;
+}

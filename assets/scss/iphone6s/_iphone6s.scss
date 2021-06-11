@@ -1,0 +1,16 @@
+@import "iphone6s-image";
+@import "iphone6s-description";
+@import "iphone6s-title";
+@import "iphone6s-subtitle";
+@import "iphone6s-textContent";
+
+.iphone6s {
+	grid-area: iphone6s;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+
+	padding: 0 4%;
+}
