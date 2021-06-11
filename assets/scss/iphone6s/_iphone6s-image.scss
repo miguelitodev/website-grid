@@ -3,4 +3,8 @@
   max-width: 100%;
   align-self: end;
   margin-top: 150px;
+
+  @media screen and (max-width: 500px) {
+    align-self: center;
+  }
 }

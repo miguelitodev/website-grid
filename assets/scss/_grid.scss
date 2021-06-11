@@ -7,4 +7,35 @@
     "keyboard imacRetina imacRetina popularICloud"
     "games bestChoice bestChoice popularICloud"
     "twitter popularExperience oldTV oldTV";
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr 0.75fr;
+    grid-template-areas:
+      "learnMore learnMore learnMore learnMore"
+      "iphone6s iphone6s iphone6s iphone6s"
+      "games games keyboard keyboard"
+      "imacRetina imacRetina imacRetina imacRetina"
+      "twitter twitter popularICloud popularICloud"
+      "bestChoice bestChoice popularICloud popularICloud"
+      "popularExperience popularExperience popularExperience popularExperience"
+      "oldTV oldTV oldTV oldTV";
+  }
+
+  @media screen and (max-width: 500px) {
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr 0.75fr;
+    grid-template-areas:
+      "learnMore learnMore learnMore learnMore"
+      "iphone6s iphone6s iphone6s iphone6s"
+      "games games games games"
+      "keyboard keyboard keyboard keyboard"
+      "imacRetina imacRetina imacRetina imacRetina"
+      "twitter twitter twitter twitter"
+      "bestChoice bestChoice bestChoice bestChoice"
+      "popularICloud popularICloud popularICloud popularICloud"
+      "popularICloud popularICloud popularICloud popularICloud"
+      "popularExperience popularExperience popularExperience popularExperience"
+      "oldTV oldTV oldTV oldTV";
+  }
 }
