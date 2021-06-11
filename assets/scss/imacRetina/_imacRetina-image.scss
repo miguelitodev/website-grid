@@ -1,7 +1,10 @@
 .imacRetina__image {
-	position: relative;
-	left: -160%;
-	width: 250%;
-	max-width: none;
-	margin-top: 20px;
+  position: relative;
+  left: -160%;
+  width: 250%;
+  max-width: none;
+  margin-top: 20px;
+  @media screen and (max-width: 500px) {
+    margin-top: 0px;
+  }
 }

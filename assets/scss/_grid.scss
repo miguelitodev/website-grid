@@ -24,7 +24,7 @@
 
   @media screen and (max-width: 500px) {
     grid-template-columns: repeat(4, 25%);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.5fr 0.75fr;
+    grid-template-rows: 0.75fr 1fr 0.5fr 0.5fr 0.75fr 0.5fr 0.5fr 1fr 0.25fr 0.5fr;
     grid-template-areas:
       "learnMore learnMore learnMore learnMore"
       "iphone6s iphone6s iphone6s iphone6s"
@@ -33,7 +33,6 @@
       "imacRetina imacRetina imacRetina imacRetina"
       "twitter twitter twitter twitter"
       "bestChoice bestChoice bestChoice bestChoice"
-      "popularICloud popularICloud popularICloud popularICloud"
       "popularICloud popularICloud popularICloud popularICloud"
       "popularExperience popularExperience popularExperience popularExperience"
       "oldTV oldTV oldTV oldTV";
